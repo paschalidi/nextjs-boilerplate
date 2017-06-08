@@ -7,7 +7,7 @@
     "dev": "node server.js",
     "start": "NODE_ENV=production node server",
     "build": "next build",
-    "deploy": "next now",
+    "deploy": "now --public",
     "test": "NODE_ENV=test jest --coverage",
     "generate": "plop --plopfile internals/generators/index.js"
   },
