@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "node server.js",
+    "start": "NODE_ENV=production node server",
+    "build": "next build",
+    "deploy": "next now",
     "test": "NODE_ENV=test jest --coverage",
-    "start": "NODE_ENV=development node server",
     "generate": "plop --plopfile internals/generators/index.js"
   },
   "keywords": [],
