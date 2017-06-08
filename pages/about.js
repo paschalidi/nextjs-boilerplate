@@ -5,7 +5,7 @@
 import Layout from '../components/Layout';
 
 export default () => (
-  <Layout>
+  <Layout title="About us">
     <style jsx>{`
       p {
         color: red;
