@@ -14,6 +14,12 @@ import Head from 'next/head';
 export default ({ children, title = 'This is the default title' }) => (
   <div>
     <Head>
+      <style>{`
+      * { box-sizing: border-box; margin: 0; padding: 0 }
+      body {
+        font: 15px Helvetica, Arial, sans-serif;
+      }
+    `}</style>
       <title>{ title }</title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
