@@ -9,11 +9,13 @@ const path = require('path');
 const componentGenerator = require('./component/index.js');
 const containerGenerator = require('./container/index.js');
 const routeGenerator = require('./route/index.js');
+const pageGenerator = require('./page/index.js');
 
 module.exports = (plop) => {
   plop.setGenerator('component', componentGenerator);
   plop.setGenerator('container', containerGenerator);
   plop.setGenerator('route', routeGenerator);
+  plop.setGenerator('page', pageGenerator);
   plop.addHelper('directory', (comp) => {
     try {
       fs.accessSync(path.join(__dirname, `../../containers/${comp}`), fs.F_OK);
