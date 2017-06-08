@@ -53,12 +53,12 @@ module.exports = {
 
     const actions = [{
       type: 'add',
-      path: '../../components/{{properCase name}}/index.js',
+      path: '../../client/components/{{properCase name}}/index.js',
       templateFile: componentTemplate,
       abortOnFail: true,
     }, {
       type: 'add',
-      path: '../../components/{{properCase name}}/tests/index.test.js',
+      path: '../../client/components/{{properCase name}}/tests/index.test.js',
       templateFile: './component/test.js.hbs',
       abortOnFail: true,
     }];
