@@ -5,9 +5,9 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 export default () => (
-  <Layout>
+  <Layout title="Vimcar">
     <div className="hello">
-      <p>Hello World</p>
+      <p>Hello Vimcar</p>
       <style jsx>{`
       .hello {
         font: 15px Helvetica, Arial, sans-serif;
