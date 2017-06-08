@@ -29,7 +29,7 @@ module.exports = {
 
     const actions = [{
       type: 'add',
-      path: '../../pages/{{properCase name}}.js',
+      path: '../../pages/{{name}}.js',
       templateFile: pageTemplate,
       abortOnFail: true,
     }];
