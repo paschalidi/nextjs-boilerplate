@@ -1,7 +1,13 @@
+/* eslint-disable react/react-in-jsx-scope */
+/* eslint-disable react/jsx-filename-extension */
+
+import Layout from '../components/Layout';
+
 export default () => (
-  <div className='hello'>
-    <p>Hello World</p>
-    <style jsx>{`
+  <Layout>
+    <div className="hello">
+      <p>Hello World</p>
+      <style jsx>{`
       .hello {
         font: 15px Helvetica, Arial, sans-serif;
         background: #eee;
@@ -13,5 +19,6 @@ export default () => (
         background: #ccc;
       }
     `}</style>
-  </div>
-)
+    </div>
+  </Layout>
+);

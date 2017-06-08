@@ -1,10 +1,16 @@
+/* eslint-disable react/react-in-jsx-scope */
+/* eslint-disable react/jsx-filename-extension */
+
+
+import Layout from '../components/Layout';
+
 export default () => (
-  <div>
+  <Layout>
     <style jsx>{`
       p {
         color: red;
       }
     `}</style>
     <p>Hello about!!</p>
-  </div>
-)
+  </Layout>
+);
