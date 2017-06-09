@@ -22,13 +22,8 @@ module.exports = {
     type: 'list',
     name: 'component',
     message: 'Select a base component:',
-    default: 'PureComponent',
-    choices: () => ['PureComponent', 'Component'],
-  }, {
-    type: 'confirm',
-    name: 'wantHeaders',
-    default: false,
-    message: 'Do you want headers?',
+    default: 'Component',
+    choices: () => ['Component', 'PureComponent'],
   }, {
     type: 'confirm',
     name: 'wantActionsAndReducer',
