@@ -3,6 +3,8 @@ const express = require('express');
 const next = require('next');
 
 const dev = process.env.NODE_ENV !== 'production';
+//todo try this
+// const app = next({ dir: './client', dev });
 const app = next({ dev });
 const handle = app.getRequestHandler();
 
