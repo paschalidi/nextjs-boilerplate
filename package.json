@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_ENV=development node server",
-    "start": "NODE_ENV=production node server",
+    "initial": "next client",
+    "production": "NODE_ENV=production node server",
+    "start": "NODE_ENV=development node server",
     "build": "next build",
     "deploy": "now --public",
     "test": "NODE_ENV=test jest --coverage",

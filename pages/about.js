@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-filename-extension */
 
 import React from 'react';
-import Layout from '../client/components/Layout';
+import Layout from '../client/components/Layout/index';
 
 export default () => (
   <Layout title="About us">
