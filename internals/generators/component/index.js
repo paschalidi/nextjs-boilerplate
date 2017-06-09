@@ -14,7 +14,7 @@ module.exports = {
     type: 'list',
     name: 'type',
     message: 'Select the type of component',
-    default: 'Stateless Function',
+    default: 'ES6 Class',
     choices: () => ['Stateless Function', 'ES6 Class (Pure)', 'ES6 Class'],
   }, {
     type: 'input',
